@@ -1,11 +1,8 @@
 import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
+  
   SiBootstrap, SiLinux
 } from "react-icons/si";
-import { TbBrandReactNative } from "react-icons/tb";
+// import { TbBrandReactNative } from "react-icons/tb";
 
 import {
   FramerMotionIcon,
@@ -33,14 +30,14 @@ import ViteSvg from "@/public/icons/vite.svg";
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import JwtSvg from "@/public/icons/jwt.svg";
 
-// Database and ORMS
-import MongoDBSvg from "@/public/icons/mongodb.svg";
-import PostgressSvg from "@/public/icons/postgresql.svg";
+// // Database and ORMS
+// import MongoDBSvg from "@/public/icons/mongodb.svg";
+// import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
-import DockerSvg from "@/public/icons/docker.svg";
-import AwsSvg from "@/public/icons/aws.svg";
+// import DockerSvg from "@/public/icons/docker.svg";
+// import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
