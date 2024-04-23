@@ -1,6 +1,8 @@
 import {
   
-  SiBootstrap, SiLinux
+  SiBootstrap,
+  
+  // SiLinux
 } from "react-icons/si";
 // import { TbBrandReactNative } from "react-icons/tb";
 
