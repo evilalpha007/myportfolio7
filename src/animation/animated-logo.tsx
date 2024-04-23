@@ -1,4 +1,9 @@
-import { AnimatePresence, Variants, motion } from "framer-motion";
+import { AnimatePresence
+	, 
+	
+	// Variants,
+	
+	motion } from "framer-motion";
 
 export default function AnimatedLogo() {
 //   const iconVariant: Variants = {
