@@ -1,5 +1,5 @@
 export const siteMetadata = {
-  title: "Dibakar Sharma portfolio",
+  title: "Dibakar Sharma ",
   author: "Dibakar Sharma",
   headerTitle: "Dibakar Sharma",
   description: "Frontend and Reactjs developer",
