@@ -17,5 +17,5 @@ export const siteMetadata = {
   twitter: "https://twitter.com",
   linkedin: "www.linkedin.com/in/dibakar-sharma-4054ba200",
   locale: "en-US",
-  // googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
