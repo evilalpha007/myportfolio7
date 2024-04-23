@@ -38,7 +38,7 @@ export default function Navbar(props: NavbarProps) {
           className="drop-shadow-teralight flex items-center justify-center"
           aria-label="Return to home page"
         >
-          <div className="relative h-12 w-[100px] sm:h-14 sm:w-[100px]">
+          <div className="relative h-12 w-12 sm:h-14 sm:w-14">
             <AnimatedLogo />
           </div>
         </Link>
