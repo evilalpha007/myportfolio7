@@ -5,6 +5,7 @@ import { Montserrat } from "next/font/google";
 import Navbar from "@/layout/navbar";
 import { routes } from "@/data/navigationRoutes";
 import { classNames } from "@/utility/classNames";
+import GoogleAnalytics from "../../GoogleAnalytics";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -20,6 +21,7 @@ export default function MainLayout(props: MainLayoutProps) {
   return (
     <>
       <div className={classNames("min-h-screen", montserrat.className)}>
+        <GoogleAnalytics />
         <Navbar routes={routes} />
         <main>{props.children}</main>
       </div>
