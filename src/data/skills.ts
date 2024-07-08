@@ -29,7 +29,7 @@ import ShardcnSvg from "@/public/icons/shardcn.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
-import NodejsSvg from "@/public/icons/nodejs.svg";
+// import NodejsSvg from "@/public/icons/nodejs.svg";
 import JwtSvg from "@/public/icons/jwt.svg";
 
 // // Database and ORMS
