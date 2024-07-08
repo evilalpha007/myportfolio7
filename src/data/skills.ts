@@ -124,10 +124,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Backend",
     skills: [
-      {
-        name: "Nodejs",
-        icon: NodejsSvg,
-      },
+      // {
+      //   name: "Nodejs",
+      //   icon: NodejsSvg,
+      // },
       // {
       //   name: "Express",
       //   icon: SiExpress,
