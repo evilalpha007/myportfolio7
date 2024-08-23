@@ -1,15 +1,11 @@
 import {
-  
   SiBootstrap,
-  
+
   // SiLinux
 } from "react-icons/si";
 // import { TbBrandReactNative } from "react-icons/tb";
 
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-} from "@/components/icons";
+import { FramerMotionIcon, ReactRouterDomIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
@@ -24,16 +20,17 @@ import ReactjsSvg from "@/public/icons/reactjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
-import RadixUISvg from "@/public/icons/radix-ui.svg";
+// import RadixUISvg from "@/public/icons/radix-ui.svg";
 import ShardcnSvg from "@/public/icons/shardcn.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
+import SiExpress from "@/public/icons/expres.svg";
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import JwtSvg from "@/public/icons/jwt.svg";
 
 // // Database and ORMS
-// import MongoDBSvg from "@/public/icons/mongodb.svg";
+import MongoDBSvg from "@/public/icons/mongodb.svg";
 // import PostgressSvg from "@/public/icons/postgresql.svg";
 
 // Tools and Tech
@@ -99,10 +96,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "MUI",
         icon: MuiSvg,
       },
-      {
-        name: "Radix UI",
-        icon: RadixUISvg,
-      },
+      // {
+      //   name: "Radix UI",
+      //   icon: RadixUISvg,
+      // },
       {
         name: "Shard-cn",
         icon: ShardcnSvg,
@@ -128,10 +125,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Nodejs",
         icon: NodejsSvg,
       },
-      // {
-      //   name: "Express",
-      //   icon: SiExpress,
-      // },
+      {
+        name: "Express",
+        icon: SiExpress,
+      },
       // {
       //   name: "Socket.io",
       //   icon: SiSocketdotio,
@@ -142,23 +139,23 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       },
     ],
   },
-  // {
-  //   sectionName: "Databases and ORMs",
-  //   skills: [
-  //     {
-  //       name: "MongoDB",
-  //       icon: MongoDBSvg,
-  //     },
-  //     {
-  //       name: "Postgress",
-  //       icon: PostgressSvg,
-  //     },
-  //     {
-  //       name: "Prisma",
-  //       icon: SiPrisma,
-  //     },
-  //   ],
-  // },
+  {
+    sectionName: "Databases and ORMs",
+    skills: [
+      {
+        name: "MongoDB",
+        icon: MongoDBSvg,
+      },
+      //     {
+      //       name: "Postgress",
+      //       icon: PostgressSvg,
+      //     },
+      //     {
+      //       name: "Prisma",
+      //       icon: SiPrisma,
+      //     },
+    ],
+  },
   {
     sectionName: "Tools and Technologies",
     skills: [
