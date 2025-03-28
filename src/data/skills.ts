@@ -38,7 +38,7 @@ import GitSvg from "@/public/icons/git.svg";
 // import DockerSvg from "@/public/icons/docker.svg";
 // import AwsSvg from "@/public/icons/aws.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
-
+//
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Languages",
