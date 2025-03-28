@@ -32,12 +32,13 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Vite",
       "Tailwindcss",
       "Vercel",
-      "GRAPH LINE CHART JS",
+      "Framer Motion",
+      "React Query",
       "React DND",
     ],
     image: {
-      LIGHT: "/images/projects/crypto.webp",
-      DARK: "/images/projects/crypto.webp",
+      LIGHT: "/images/projects/alify.jpeg",
+      DARK: "/images/projects/alify.jpeg",
     },
   },
 ];
@@ -106,8 +107,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Alify Mobile WebApp",
     favicon: "/images/projects/logos/favicon.ico",
-    imageUrl: ["/images/alify.jpeg"],
+    imageUrl: ["/images/projects/alify.jpeg"],
     description: "movie webapp in react js with tailwindcss and framer motion",
-    liveWebsiteHref: "https://obys-agencys.netlify.app/",
+    liveWebsiteHref: "https://alify.netlify.app/",
   },
 ];
