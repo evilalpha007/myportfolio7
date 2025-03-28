@@ -104,7 +104,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://obys-agencys.netlify.app/",
   },
   {
-    name: "OBYS Agency",
+    name: "Alify Mobile WebApp",
     favicon: "/images/projects/logos/favicon.ico",
     imageUrl: ["/images/alify.jpeg"],
     description: "movie webapp in react js with tailwindcss and framer motion",
