@@ -7,7 +7,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 0,
     title: "Json Tree",
     href: "/projects",
-    tags: ["Next js", "Vite", "Tailwindcss", "Vercel","Monaco Editor" ],
+    tags: ["Next js", "Vite", "Tailwindcss", "Vercel", "Monaco Editor"],
     image: {
       LIGHT: "/images/projects/json-light.png",
       DARK: "/images/projects/json-dark.jpeg",
@@ -17,14 +17,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 1,
     title: "Nft Digital Web 3",
     href: "/projects",
-    tags: [
-      "HTML",
-      "Tailwindcss",
-      "CSS",
-      "GSAP",
-      "LOCOMOTIVE JS",
-      "VERCEL",
-    ],
+    tags: ["HTML", "Tailwindcss", "CSS", "GSAP", "LOCOMOTIVE JS", "VERCEL"],
     image: {
       LIGHT: "/images/projects/nftmark.webp",
       DARK: "/images/projects/nftmark.webp",
@@ -32,9 +25,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Crypto Tracker",
+    title: "Alify  WEBApp",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "GRAPH LINE CHART JS", "React DND"],
+    tags: [
+      "Reactjs",
+      "Vite",
+      "Tailwindcss",
+      "Vercel",
+      "GRAPH LINE CHART JS",
+      "React DND",
+    ],
     image: {
       LIGHT: "/images/projects/crypto.webp",
       DARK: "/images/projects/crypto.webp",
@@ -58,9 +58,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Crypto Tracker",
     favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/crypto.webp",
-    ],
+    imageUrl: ["/images/projects/crypto.webp"],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
     // sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
@@ -101,8 +99,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/obys (5).jpeg",
     ],
     description:
-      "Clone of obys agency  top notch design  with gsap animation locomotive js ",
+      "Clone of obys agency top notch design with gsap animation locomotive js",
     // sourceCodeHref: "https://github.com/BUMBAIYA/pradityamanjhi-v2",
+    liveWebsiteHref: "https://obys-agencys.netlify.app/",
+  },
+  {
+    name: "OBYS Agency",
+    favicon: "/images/projects/logos/favicon.ico",
+    imageUrl: ["/images/alify.jpeg"],
+    description: "movie webapp in react js with tailwindcss and framer motion",
     liveWebsiteHref: "https://obys-agencys.netlify.app/",
   },
 ];

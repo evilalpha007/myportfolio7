@@ -3,7 +3,7 @@ export const siteMetadata = {
   author: "Dibakar Sharma",
   headerTitle: "Dibakar Sharma",
   description:
-    "I am a dedicated frontend developer with a strong passion for creating captivating user experiences using the power of React. With a 1.5 year+ of professional experience under my belt, I've honed my skills in crafting dynamic and animated responsive web applications. ",
+    "I am a dedicated frontend developer with a strong passion for creating captivating user experiences using the power of React. With a 2.5 year+ of professional experience under my belt, I've honed my skills in crafting dynamic and animated responsive web applications. ",
   language: "en-us",
   theme: "light",
   siteName: "dibakar-sharma",
@@ -15,8 +15,8 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.jpeg",
   email: "dibakardiba12@gmail.com",
   github: "https://github.com/evilalpha007",
-  twitter: "https://twitter.com",
-  linkedin: "www.linkedin.com/in/dibakar-sharma-4054ba200",
+  twitter: "https://x.com/x_light_7",
+  linkedin: "https://www.linkedin.com/in/dibakar-sharma-4054ba200",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
 };
